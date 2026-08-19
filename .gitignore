@@ -1,0 +1,25 @@
+vendor
+composer.lock
+.phpunit.result.cache
+
+# === Secrets & credentials (auto-added by batch manager) ===
+.env
+*.env
+*.env.*
+.env.local
+.env.production
+.env.staging
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+secrets.yaml
+secrets.yml
+credentials.json
+service-account*.json
+terraform.tfvars
+terraform.tfvars.json
+.kubeconfig
+kubeconfig
+# === End secrets ===
